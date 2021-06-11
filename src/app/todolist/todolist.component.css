@@ -1,0 +1,39 @@
+.todo-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+.todo-item {
+    display: flex;
+    background-color: red;
+    width: 30%;
+    padding: 1rem;
+    justify-content: space-between;
+}
+.todo-input{
+    display: flex;
+    background-color: black;
+    width: 30%;
+    padding: 1rem;
+    justify-content: space-between;
+}
+.todo-item-left{
+    background-color:white;
+    width: 100%;
+    display: flex;
+  
+    
+}
+input[type=text] {
+    padding: 1rem;
+    width: 75%;
+}
+button{
+    width: 15%;
+}
+
+.completed{
+    text-decoration:line-through;
+}
